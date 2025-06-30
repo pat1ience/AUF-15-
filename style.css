@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Luckiest+Guy&family=Monomakh&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     transition: .3s;
 }
@@ -5,6 +7,9 @@
 body {
     background-color: rgb(3, 3, 3);
     color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 img {
@@ -53,8 +58,17 @@ img {
 }
 
 .result {
+    margin-top: 15px;
     font-size: 40px;
     color: rgb(238, 210, 1);
+    text-align: center;
+    font-weight: 500;
+}
+
+.how {
+    margin-top: -36px;
+    font-size: 20px;
+    color: rgb(255, 248, 199);
     text-align: center;
 }
 
